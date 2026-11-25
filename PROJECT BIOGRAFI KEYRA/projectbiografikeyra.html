@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* GLOBAL STYLES */
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f7fa;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* HEADER STYLES */
+        header {
+            background: linear-gradient(135deg, #2c3e50, #4a69bd);
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+            border-radius: 0 0 10px 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        
+        header p {
+            margin: 10px 0 0;
+            font-size: 1.2rem;
+            opacity: 0.9;
+        }
+        
+        /* SECTION STYLES */
+        section {
+            background-color: white;
+            margin: 25px 0;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+        }
+        
+        h2 {
+            color: #2c3e50;
+            border-bottom: 2px solid #4a69bd;
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+        
+        /* QUOTES STYLES */
+        .quotes {
+            background-color: #fff9e6;
+            border-left: 5px solid #ffc107;
+            padding: 15px 20px;
+            font-style: italic;
+            font-size: 1.2rem;
+        }
+        
+        /* IMAGE STYLES */
+        .favorite-image {
+            text-align: center;
+        }
+        
+        .favorite-image img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* TABLE STYLES */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        th {
+            background-color: #4a69bd;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        
+        tr:hover {
+            background-color: #f1f5f9;
+        }
+        
+        /* LINK STYLES */
+        .links {
+            padding-left: 20px;
+        }
+        
+        .links li {
+            margin-bottom: 10px;
+        }
+        
+        .links a {
+            color: #2c3e50;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .links a:hover {
+            color: #4a69bd;
+            text-decoration: underline;
+        }
+        
+        /* VIDEO STYLES */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* 16:9 aspect ratio */
+            height: 0;
+            overflow: hidden;
+            max-width: 100%;
+            margin: 20px 0;
+        }
+        
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+        }
+        
+        /* FOOTER STYLES */
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+            color: #777;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>BIOGRAFI DIRI</h1>
+        <P>Selamat datang di halaman biografi saya</P>
+    </header>
+    <!-- Data Diri -->
+    <section>
+        <h2>Data Diri</h2>
+        <p><strong>Nama:</strong>Salsabila Keyra W</p>
+        <P><strong>Kelas:</strong>VIIIB</P>
+        <p><strong>Sekolah</strong>SMPIT AL IHSAN LEGENDA</p>
+    </section>
+    <!-- Gambar Favorit -->
+     <section>
+        <h2>Gambar Favorit</h2>
+        <div class="favorite-image">
+        <img src="https://www.travelpirates.com/destinations/uk/london" alt="Kota London">
+        <p>City of London</p>
+        </div>
+     </section>
+<!-- Mata Pelajaran Favorit -->
+     <section>
+        <h2>Mata Pelajaran </h2>
+        <table>
+            <tr>
+                <th>No</th>
+                <th>Mata Pelajaran</th>
+                <th>Alasan</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Bahasa Inggris</td>
+                <td>Agar bisa berbicara/memahami bahasa inggris</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>IPA</td>
+                <td>Karena bisa mengetahui dan mempelajari cara kerja tubuh yang selama ini bekerja tanpa sadar</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>IPS</td>
+                <td>Karna seru membahas perdagangan antar negara</td>
+            </tr>
+        </table>
+     </section>
+     <!-- Link Postingan Artikel.or.id Favorit -->
+     <section>
+         <h2>Link Postingan Artikel.or.id Favorit</h2>
+         <ul class="link">
+            <li><a href="https://id.pinterest.com/pin/berikut-6-contoh-artikel-ilmiah-populer-karya-siswa-klik-anggaran--949133690212544468/"></a></li>
+            <li><a href="https://www.litref="https://id.pintereserasiliwangi.com/picture/read/bahasa-dan-sastra/737/artikel-ilmiah-populer-bahasa-kasar-dan-sarkasme-di-media-sosial-cermin-ekspresi-atau-krisis-etika/"></a></li>
+            <li><a ht.com/pin/berikut-6-contoh-artikel-ilmiah-populer-karya-siswa-klik-anggaran--650066527497392255/"></a></li>
+         </ul>
+     </section>
+</body>
+</html>
